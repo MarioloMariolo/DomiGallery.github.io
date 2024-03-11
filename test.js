@@ -4236,7 +4236,7 @@
                     f = a(b.prop("tagName") + '[rel="' + b.attr("rel") + '"]');
                     for (var j = 0; j < f.length; j = ++j) c(a(f[j])), f[j] === b[0] && (g = j);
                 }
-                var k = e.scrollTop()-10 + this.options.positionFromTop,
+                var k = e.scrollTop()-30 + this.options.positionFromTop,
                     l = e.scrollLeft();
                     console.log(k);
                     console.log(e.scrollTop());
