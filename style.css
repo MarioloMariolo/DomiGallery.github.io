@@ -5,39 +5,41 @@
 }
 
 html, body {
-    width: 100vw;
-    background-color: #fff;
+    width: 100%;
+    background-color: #0b0b0b;
 }
 
 .banner {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 100vw;
-    height: 120px;
+    height: 100px;
     position: fixed;
     z-index: 100;
+    color: white;
 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(30, 30, 30);
     opacity: 0.95;
 }
 .banner > h1 { 
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
 }
 .banner > h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
 }
 
 .footer {
     position: relative;
     height: 80px;
+    color: white;
 }
 
 .footer > h2 {
@@ -103,8 +105,14 @@ img {
 @media all and (max-width : 700px){
 
     .banner {
-        height: 100px;
+        height: 70px;
+        padding-bottom: 10px;
+        padding-top: 15px;
 
+    }
+
+    .banner > h1 {
+        font-size: 16px;
     }
 
     .footer {
@@ -117,7 +125,7 @@ img {
     .grid-wrapper {
         margin: auto;
         width: 85%;
-        padding-top: 130px;
+        padding-top: 90px;
 
         display: grid;
         grid-gap: 5px;
@@ -156,6 +164,7 @@ img {
 @media all and (min-width : 700px) and (max-width : 1200px){
     .grid-wrapper {
         margin: auto;
+        padding-top: 110px;
         width: 80%;
         display: grid;
         grid-gap: 10px;
